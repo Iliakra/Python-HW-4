@@ -11,8 +11,8 @@ script_name, production_hours, hour_rate, prize = argv
 
 
 def salary_calculate(script_name, production_hours, hour_rate, prize):
-    result = (float(production_hours) * float(hour_rate)) + float(prize)
-    print(f"Заработная плата, рассчитанная в {script_name} равна {result}")
+    result = float(production_hours) * float(hour_rate) + float(prize)
+    print(f"Заработная плата, рассчитанная в {script_name} равна {result} руб.")
 
 
 salary_calculate(script_name, production_hours, hour_rate, prize)

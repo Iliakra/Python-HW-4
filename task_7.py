@@ -14,7 +14,7 @@ def fact(n):
         yield res
 
 
-g = fact(4)
+g = fact(12)
 print(g)
 
 for el in g:
